@@ -535,12 +535,12 @@
             },
             "vertices": [
               {
-                "x": 770,
-                "y": 90
+                "x": 760,
+                "y": 110
               },
               {
-                "x": 590,
-                "y": 90
+                "x": 570,
+                "y": 110
               }
             ]
           },
@@ -593,7 +593,7 @@
                 "y": 50
               },
               {
-                "x": 760,
+                "x": 780,
                 "y": 50
               }
             ]
@@ -862,7 +862,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 4,
+                "spoofing": 5,
                 "tampering": 0,
                 "repudiation": 1,
                 "informationDisclosure": 0,
@@ -1140,13 +1140,26 @@
                   "new": false,
                   "number": 32,
                   "score": ""
+                },
+                {
+                  "id": "7c9458c6-cc54-457c-977d-1cdd46fa4c80",
+                  "title": "Access Prevention",
+                  "status": "Open",
+                  "severity": "TBA",
+                  "type": "Denial of service",
+                  "description": "An external agent prevents access to a data store on the other side of the trust boundary.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 42,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 3,
                 "repudiation": 1,
                 "informationDisclosure": 2,
-                "denialOfService": 0
+                "denialOfService": 2
               }
             }
           },
@@ -1292,7 +1305,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 4,
+                "spoofing": 5,
                 "repudiation": 1
               }
             }
@@ -1416,11 +1429,11 @@
                 {
                   "id": "efa77208-2c42-4688-8227-c6d1c669aa1f",
                   "title": "Web Application Spoofing",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "TBA",
                   "type": "Spoofing",
-                  "description": "Unauthorized access to the browser client.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "description": "The web application may be spoofed by an attacker and this may lead to unauthorized access to the browser client.",
+                  "mitigation": "When discussed with the design team, it appears that this is not possible, as a security mechanism to identify the server is present.",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 2,
@@ -1451,15 +1464,28 @@
                   "new": false,
                   "number": 34,
                   "score": ""
+                },
+                {
+                  "id": "b392e91a-23af-46b1-abfa-e5e749a0119c",
+                  "title": "Data Passing",
+                  "status": "Open",
+                  "severity": "TBA",
+                  "type": "Elevation of privilege",
+                  "description": "An attacker may pass data into the browser client in order to change the flow of program execution within the browser client to the attacker's choosing.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 44,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 3,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 1,
-                "elevationOfPrivilege": 1
+                "elevationOfPrivilege": 2
               }
             },
             "zIndex": 28
@@ -1469,6 +1495,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 34
+    "threatTop": 44
   }
 }
