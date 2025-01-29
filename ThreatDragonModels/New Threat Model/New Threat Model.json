@@ -856,6 +856,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -939,7 +940,6 @@
               ]
             },
             "id": "d23af213-1f1e-4f93-b647-8d9ee5d90cd4",
-            "zIndex": 22,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
@@ -1000,6 +1000,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 23,
             "ports": {
               "groups": {
                 "top": {
@@ -1083,7 +1084,6 @@
               ]
             },
             "id": "0feba766-143b-4fe7-9ec1-1366fdb7dcb2",
-            "zIndex": 23,
             "data": {
               "type": "tm.Store",
               "name": "SQL Database",
@@ -1120,6 +1120,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 24,
             "ports": {
               "groups": {
                 "top": {
@@ -1203,7 +1204,6 @@
               ]
             },
             "id": "b6ffbdc5-bd05-423a-a22c-07478a25da6f",
-            "zIndex": 24,
             "data": {
               "type": "tm.Actor",
               "name": "LDAP",
